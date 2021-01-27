@@ -1,3 +1,5 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
 html,
 body {
   padding: 0;
@@ -13,4 +15,49 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.screen{
+  background: url('https://www.wallpapertip.com/wmimgs/159-1598613_ps4-theme-of-ps5.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+}
+
+header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+header .media-nav .active{
+  font-weight: 700;
+  color: white;
+}
+
+header .settings {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+header .settings .fa{
+  font-size: 2rem;
+  color: white;
+}
+
+header .settings .user{
+  width: 200px;
+  height: 175px;
+  border-radius: 50%;
+}
+
+header .settings .time{
+  font-size: 2rem;
+  color: white;
 }

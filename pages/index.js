@@ -21,10 +21,10 @@ export default function Home() {
                 <span className="icon">
                     <img 
                     className="user"
-                    src="https://www.rollingstone.com/wp-content/uploads/2021/01/bernie-meme-photog.jpg"
+                    src="https://media.timeout.com/images/105741137/image.jpg"
                     />
                 </span>
-                <span className="time">3:36 PM</span>
+                <span className="time">3:45 PM</span>
             </section>
         </header>
     </div>
