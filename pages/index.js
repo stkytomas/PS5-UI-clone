@@ -27,6 +27,13 @@ export default function Home() {
                 <span className="time">3:45 PM</span>
             </section>
         </header>
+        <div className="container">
+            <section className="game-nav">
+                <div className="game active">
+                    <i className="fa fa-location-arrow"></i>
+                </div>
+            </section>
+        </div>
     </div>
     )
 }
