@@ -99,6 +99,16 @@ export default function Home() {
                     />
                 </div>
             </section>
+            <section className="info">
+                <span className="sub-title">
+                    Official news from Playstation | 1/27/2021
+                </span>
+                <h1>Ready for a PS5 Adventure?</h1>
+                <p>
+                    ASTRO's PLAYROOM is pre-loaded and waiting for you! Explore the new
+                    capabilities of the PS5 and feel the world.
+                </p>
+            </section>
         </div>
     </div>
     )
