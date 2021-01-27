@@ -109,6 +109,20 @@ export default function Home() {
                     capabilities of the PS5 and feel the world.
                 </p>
             </section>
+            <section id="video-trailers">
+                <div className="trailer">
+                    <img
+                        className="image"
+                        src="https://twinfinite.net/wp-content/uploads/2020/11/Marvels-Spider-Man-Miles-Morales.jpg"
+                    />
+                    <div className="video-info">
+                        <div className="circle-player">
+                            <i className="fa fa-play"></i>
+                        </div>
+                        <span className="title">Spiderman: Miles Morales</span>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
     )
