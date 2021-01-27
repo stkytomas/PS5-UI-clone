@@ -33,6 +33,15 @@ header{
   padding: 40px;
 }
 
+header .media-nav{
+  font-size: 2rem;
+  color: #8f97aa;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  font-weight: 100;
+}
+
 header .media-nav .active{
   font-weight: 700;
   color: white;
