@@ -32,6 +32,72 @@ export default function Home() {
                 <div className="game active">
                     <i className="fa fa-location-arrow"></i>
                 </div>
+                <div className="game">
+                    <div
+                    className="img"
+                    style={{
+                        background: "url('https://i.psnprofiles.com/games/775921/Ldaaa68.png')",
+                        backgroundSize: "contain",
+                        backgroundPosition: "center",
+                        transform: "scale(1.5)",
+                    }}
+                    />
+                </div>
+                <div className="game">
+                    <div
+                    className="img"
+                    style={{
+                        background: "url('https://cdn2.unrealengine.com/scottpilgrim-store-portrait-1200x1600-1200x1600-952049598.jpg')",
+                        backgroundSize: "contain",
+                        backgroundPosition: "center",
+                        transform: "scale(1.5)",
+                    }}
+                    />
+                </div>
+                <div className="game">
+                    <div
+                    className="img"
+                    style={{
+                        background: "url('https://upload.wikimedia.org/wikipedia/en/f/f0/Unravel_2_cover_art.jpg')",
+                        backgroundSize: "contain",
+                        backgroundPosition: "center",
+                        transform: "scale(1.5)",
+                    }}
+                    />
+                </div>
+                <div className="game">
+                    <div
+                    className="img"
+                    style={{
+                        background: "url('https://i.redd.it/gix30ttllzv41.jpg')",
+                        backgroundSize: "contain",
+                        backgroundPosition: "center",
+                        transform: "scale(1.5)",
+                    }}
+                    />
+                </div>
+                <div className="game">
+                    <div
+                    className="img"
+                    style={{
+                        background: "url('https://image-cdn.essentiallysports.com/wp-content/uploads/20200618070954/hfwposter.jpg')",
+                        backgroundSize: "contain",
+                        backgroundPosition: "center",
+                        transform: "scale(1.5)",
+                    }}
+                    />
+                </div>
+                <div className="game">
+                    <div
+                    className="img"
+                    style={{
+                        background: "url('https://i.redd.it/8pvdi0pne8a51.png')",
+                        backgroundSize: "contain",
+                        backgroundPosition: "center",
+                        transform: "scale(1.5)",
+                    }}
+                    />
+                </div>
             </section>
         </div>
     </div>

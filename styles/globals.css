@@ -117,3 +117,13 @@ header .settings .time{
   bottom: 10px;
   right: -100px;
 }
+
+.game-nav .game.active .fa{
+  font-size: 4rem;
+}
+
+.game-nav .game .img{
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
