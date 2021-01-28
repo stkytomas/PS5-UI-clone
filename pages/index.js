@@ -21,7 +21,7 @@ export default function Home() {
                 <span className="icon">
                     <img 
                     className="user"
-                    src="https://media.timeout.com/images/105741137/image.jpg"
+                    src="https://api.time.com/wp-content/uploads/2019/04/tyler-blevins-ninja-time-100-2019-002-1.jpg?quality=85&zoom=2"
                     />
                 </span>
                 <span className="time">3:45 PM</span>
@@ -109,7 +109,9 @@ export default function Home() {
                     capabilities of the PS5 and feel the world.
                 </p>
             </section>
-            <section id="video-trailers">
+            
+        </div>
+        <section id="video-trailers">
                 <div className="trailer">
                     <img
                         className="image"
@@ -122,8 +124,55 @@ export default function Home() {
                         <span className="title">Spiderman: Miles Morales</span>
                     </div>
                 </div>
+                <div className="trailer">
+                    <img
+                        className="image"
+                        src="https://i2-prod.dailystar.co.uk/incoming/article21327152.ece/ALTERNATES/s1227b/0_GodFall-PS5-Trailer-Screenshot-4.jpg"
+                    />
+                    <div className="video-info">
+                        <div className="circle-player">
+                            <i className="fa fa-play"></i>
+                        </div>
+                        <span className="title">Godfall</span>
+                    </div>
+                </div>
+                <div className="trailer">
+                    <img
+                        className="image"
+                        src="https://images.pushsquare.com/64eeef8813b5d/astros-playroom-ps5-playstation-5-3.original.jpg"
+                    />
+                    <div className="video-info">
+                        <div className="circle-player">
+                            <i className="fa fa-play"></i>
+                        </div>
+                        <span className="title">ASTRO's PLAYROOM</span>
+                    </div>
+                </div>
+                <div className="trailer">
+                    <img
+                        className="image"
+                        src="https://gamespot1.cbsistatic.com/uploads/original/1406/14063904/3404065-unraveltwo-10.jpg"
+                    />
+                    <div className="video-info">
+                        <div className="circle-player">
+                            <i className="fa fa-play"></i>
+                        </div>
+                        <span className="title">Unravel Two</span>
+                    </div>
+                </div>
+                <div className="trailer">
+                    <img
+                        className="image"
+                        src="https://assets1.ignimgs.com/2020/09/16/screenshot-38-1600289117481.jpg"
+                    />
+                    <div className="video-info">
+                        <div className="circle-player">
+                            <i className="fa fa-play"></i>
+                        </div>
+                        <span className="title">Demon's Souls</span>
+                    </div>
+                </div>
             </section>
-        </div>
     </div>
     )
 }
